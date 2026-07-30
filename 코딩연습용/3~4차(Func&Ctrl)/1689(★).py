@@ -8,5 +8,4 @@
 # dummy_data 를 출력한다.
 
 
-import requests
 
