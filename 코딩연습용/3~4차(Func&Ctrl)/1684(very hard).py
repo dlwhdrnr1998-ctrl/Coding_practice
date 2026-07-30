@@ -10,19 +10,20 @@ address = ['서울', '강릉', '조선', '나주', '한성부']
 def create_user():
     pass
 
+def decrease_book(number_of_rentbook):
+    number_of_book -= number_of_rentbook
+
+
 many_user = {
-    "이름": "김시습", "나이": 20, "주소": "서울"
-    "이름" "허균", 나이:16, "주소": "강릉"
-    "이름":" "혜인, 나이:25, "주소": "조선"}
+    "이름": "김시습", "나이": 20, "주소": "서울",
+    "이름": "허균", "나이":16, "주소": "강릉",
+    "이름":"남혜인", "나이":25, "주소": "조선",
+}
+
 def rental_book(info):
-    pass
-
-
-
-
-
-
-
+    info.items()
+    대여할책의수= info.value() // 10
+    decrease_book()
 
 # 1단계: 기본 데이터 및 함수 준비
 # many_user 변수에 다음 신규 고객 정보 딕셔너리를 요소로 갖는 리스트를 할당합니다:
