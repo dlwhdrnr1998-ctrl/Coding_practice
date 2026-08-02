@@ -4,7 +4,7 @@
 
 #<내답안>
 def random_sum():
-    num = int(input("숫자를 입력하세요 : "))
+    num = int(input("1000 이하의 숫자를 입력하세요: "))
     if num <= 1000:
         total = 0
         list1 = list(range(1,num+1))
